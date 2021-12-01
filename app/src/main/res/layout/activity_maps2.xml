@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/map"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity2">
+
+    <fragment
+        android:id="@+id/googleMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:id="@+id/MaterialSearchBar"
+        style="@style/MaterialSearchBarLight"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:elevation="5dp"
+        android:outlineProvider="bounds"
+        map:mt_hint="search a place"
+        map:mt_maxSuggestionsCount="10"
+        map:mt_navIconEnabled="true"
+        map:mt_placeholder="Search a Place.."
+        map:mt_speechMode="false" />
+
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/Green"
+        android:text="Find Service"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+<include
+    layout="@layout/drawer_layout"/>
+
+</RelativeLayout>
+

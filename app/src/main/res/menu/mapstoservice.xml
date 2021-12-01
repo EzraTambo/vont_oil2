@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Navigation">
+
+        <menu>
+
+
+            <item
+                android:id="@+id/Map"
+                android:icon="@drawable/ic_baseline_map_24"
+                android:title="Map"/>
+
+
+
+        </menu>
+
+    </item>
+
+
+
+
+
+    <item android:title="Account">
+
+        <menu>
+
+            <item
+                android:id="@+id/signOut"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="Sign Out"/>
+
+
+
+        </menu>
+
+
+    </item>
+
+
+    <item android:title="Talk to Us">
+
+        <menu>
+
+            <item
+                android:id="@+id/socialhandle1"
+                android:icon="@drawable/instagram"
+                android:title="Instagram"/>
+            <item
+                android:id="@+id/socialhandle"
+                android:icon="@drawable/facebook"
+                android:title="Facebook"/>
+        </menu>
+
+
+    </item>
+
+
+    <item android:title="Rate Us">
+
+        <menu>
+
+            <item
+                android:id="@+id/RateUs"
+                android:icon="@drawable/ic_baseline_rate_review_24"
+                android:title="Rate Us"/>
+
+
+
+        </menu>
+
+
+    </item>
+
+
+
+    <item android:id="@+id/action_settings"
+        android:icon="@drawable/settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

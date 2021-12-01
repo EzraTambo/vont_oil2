@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/mapsActivity2">
+    <activity
+        android:id="@+id/mapsActivity2"
+        android:name="com.example.vontoil2.MapsActivity2"
+        android:label="activity_maps2"
+        tools:layout="@layout/activity_maps2" />
+    <activity
+        android:id="@+id/checkout"
+        android:name="com.example.vontoil2.checkout"
+        android:label="activity_checkout"
+        tools:layout="@layout/activity_checkout" />
+    <activity
+        android:id="@+id/profile"
+        android:name="com.example.vontoil2.profile"
+        android:label="activity_profile"
+        tools:layout="@layout/activity_profile" />
+    <activity
+        android:id="@+id/login2"
+        android:name="com.example.vontoil2.login"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/register"
+        android:name="com.example.vontoil2.register"
+        android:label="activity_register"
+        tools:layout="@layout/activity_register" />
+    <activity
+        android:id="@+id/servicedashboard"
+        android:name="com.example.vontoil2.servicedashboard"
+        android:label="activity_servicedashboard"
+        tools:layout="@layout/activity_servicedashboard" />
+    <activity
+        android:id="@+id/clientdashboard"
+        android:name="com.example.vontoil2.clientdashboard"
+        android:label="activity_clientdashboard"
+        tools:layout="@layout/activity_clientdashboard" />
+</navigation>
